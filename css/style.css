@@ -181,7 +181,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     min-width: max-content;
-    margin: 10px 10px;
+    margin: 10px 20px;
 }
 .office-detail {
     margin-right: 5px;
@@ -205,7 +205,7 @@ footer {
     height:24px;
 }
 
-
+/* media screen resoultion */
 @media only screen and (max-width: 1010px) {
     #content {
         margin: 0 4em;
@@ -260,6 +260,12 @@ footer {
         min-width: 42%;
         max-width: 42%;
     }
+        .banner-text-cover > h2 {
+        font-size: 30px;
+    }
+    .banner-text-cover > h3 {
+        font-size: 24px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -273,10 +279,10 @@ footer {
         margin-top: -220px;
     }
     .banner-text-cover > h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
     .banner-text-cover > h3 {
-        font-size: 24px;
+        font-size: 18px;
     }
     #banner-logo {
         width: 60px;
@@ -288,122 +294,7 @@ footer {
         font-size: 14px;
     }
     #content-body .card-panel {
-        min-width: 38%;
-        max-width: 38%;
+        min-width: 35%;
+        max-width: 35%;
     }
 }
-
-
-
-
-/*
-html {
-    font-family: 'Heebo', sans-serif;
-    direction: rtl;
-    float: right !important;
-    box-sizing: content-box !important;
-}
-body {
-    background-color: #F5F5F5;
-    margin: 8px;
-}
-nav {
-    display: inline;
-    margin-right: 25px;
-    min-height: 64px;
-    background-color: #f2f2f2;
-}
-#nav-mobile {
-    margin-right: 400px;
-}
-nav .brand-logo {
-    color: black;
-}
-nav ul a {
-    color: black;
-}
-i {
-    width: 24px;
-}
-a {
-    color: black;
-    text-decoration: none;
-}
-.bar {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-    transition: box-shadow 200ms;
-    left: 0;
-    position: relative;
-    z-index: 9999;
-    width: 100%;
-    vertical-align: middle;
-}
-.relative-block {
-    position: relative;
-    display: inline-block;
-    box-sizing: border-box;
-}
-#topbar {
-    top: 0;
-    background-color: #fafafa;
-    #f2f2f2
-}
-#header-logo {
-    font-size: 2.28rem;
-    font-weight: 400;
-}
-#banner-logo {
-    margin: 10px;
-    height: 48px;
-    vertical-align: middle;
-}
-footer {
-    bottom: 0;
-    text-align: center;
-    background-color: rgb(247,247,247);
-    padding: 10px;
-}
-footer div span {
-    display: inline-block;
-    position: relative;
-    margin-right: 12px;
-}
-.footer-detail {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    min-width: 182px;
-}
-#content-body {
-    text-align: center;
-    margin: 0px auto;
-}
-span i {
-    color: black;
-    vertical-align: sub;
-    margin-left: 5px;
-    font-size: 18px !important;
-}
-.google-maps {
-    position: relative;
-    padding-bottom: 50%; // This is the aspect ratio
-    height: 0;
-    min-width: 120px;
-    overflow: hidden;
-}
-.google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-}
-.row .col {
-    float: right !important;
-}
-
-.footer-contact-us {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 20em;
-}
-*/
