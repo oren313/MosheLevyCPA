@@ -260,23 +260,40 @@ footer {
         min-width: 42%;
         max-width: 42%;
     }
-        .banner-text-cover > h2 {
+    .banner-text-cover > h2 {
         font-size: 30px;
     }
     .banner-text-cover > h3 {
         font-size: 24px;
+    }
+    .banner-content {
+        background-size: contain;
+        height: 300px
+    }
+    .banner-text-cover {
+        color: #5a5a5a;
+        -webkit-text-stroke: 0;
+        margin-top: -220px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+        .banner-text-cover > h2 {
+        font-size: 25px;
+    }
+    .banner-text-cover > h3 {
+        font-size: 20px;
+    }
+    #content-body .card-panel {
+        min-width: 39%;
+        max-width: 39%;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .banner-content {
         background-size: contain;
-            height: 230px;
-    }
-    .banner-text-cover {
-        color: #5a5a5a;
-        -webkit-text-stroke: 0;
-        margin-top: -220px;
+        height: 230px;
     }
     .banner-text-cover > h2 {
         font-size: 20px;
