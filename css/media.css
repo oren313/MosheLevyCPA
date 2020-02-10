@@ -121,9 +121,6 @@
     .banner-text-cover > h3 {
         font-size: 18px;
     }
-    #banner-logo {
-        width: 60px;
-    }
     h1 {
         font-size: 1.6em;
     }
@@ -131,8 +128,8 @@
         font-size: 14px;
     }
     #content-body .card-panel {
-        min-width: 35%;
-        max-width: 35%;
+        min-width: 38%;
+        max-width: 38%;
     }
     .nav-phone {
         font-size: 18px;
