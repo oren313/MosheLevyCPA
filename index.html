@@ -13,13 +13,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <title>רואה חשבון - ראיית חשבון והנהלת חשבונות | משה לוי רואה חשבון כפר סבא</title>
-    <link rel="icon" type="image/png" href="imges/MosheLevyLogo.png">
-    <link rel="icon" type="image/png" href="/imges/moshelevy-icon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="/imges/moshelevy-icon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="images/MosheLevyLogo.png">
+    <link rel="icon" type="image/png" href="/images/moshelevy-icon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/moshelevy-icon-16x16.png" sizes="16x16" />
     <link href="fonts/Heebo.woff2" rel="stylesheet" />
     <link href="fonts/google-fonts.woff2" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -30,12 +32,17 @@
     <nav id="header" class="bar">
         <div class="nav-banner">
             <a href="index.html" class="brand-logo-href" title="משה לוי רואה חשבון">
-                <img id="banner-logo" src="imges/MosheLevyLogo.png" title="משה לוי רואה חשבון" />
-                <h1 class="relative-block">
+                <img id="banner-logo" src="images/MosheLevyLogo.png" title="משה לוי רואה חשבון" />
+                <h1 class="hedaer-title">
                     משה לוי רואי חשבון
                 </h1>
             </a>
         </div>
+       <div class="nav-item">    
+           <a href="tel:09765490">
+               <button class="nav-phone"><i class="Tiny material-icons" title="משה לוי רואה חשבון">phone</i>09-7654590</button>
+           </a>
+       </div>
         <!--
         <div class="nav-item">    
              <a href="./contact_us.html">אודות המשרד</a> 
@@ -55,8 +62,7 @@
                 <h3>הנהלת חשבונות - יעוץ מס - ניהול פיננסי - נסיון מאז 1985</h3>
             </div>
             <div class="card-panel card-design main-card">
-                <img src='imges/moshelevy.png' title="משה לוי" alt="משה לוי" />
-                <p>משרד רו"ח לוי משה פועל משנת 1990.
+                <p class="main-card-text">משרד רו"ח לוי משה פועל משנת 1990.
 
 בראש המשרד עומד רו"ח לוי משה, בוגר אוניברסיטת תל אביב בחוגים חשבונאות וכלכלה.
 משה הינו יוצא משרד קוסט, פורר גבאי( כיום AQY).
@@ -69,6 +75,10 @@
 
 כן מעניק המשרד שירותי חשות וליווי עסקי לעסקים היקפים שונים, כולל ליווי וסיוע בקשר מול הבנקים ומוסדות שונים, וכן בדיקות כלכליות וכדאיות לפרוייקטים ולנושאים שונים.
                </p>
+                <div style="text-align: center; text-align: center; display: flex; flex-flow: column; width: 177px;">
+                    <img src="images/moshelevy.png" title="משה לוי" alt="משה לוי">
+                    <span style="font-size: 14px; color: #bdbdbd;">משה לוי</span>
+                </div>
             </div>
             <article id="content-body">
                 <div class="card-design card-panel">
@@ -87,7 +97,9 @@
                 </div>
                 <div class="card-design card-panel">
                     <div class="service-card">
-                        <div class="grid-icon-row"><img src="imges/accounting_managment_white.png" class="service-image" title="הנהלת חשבונות" /></div>
+                        <div class="grid-icon-row">
+                            <img src="images/accounting_managment_white.png" id="accounting-managment-img" class="service-image" title="הנהלת חשבונות" />
+                        </div>
                         <span class="service-title">הנהלת חשבונות</span>
                         <p class="light center">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
                     </div>
@@ -101,7 +113,7 @@
                 </div>
                 <div class="card-design card-panel">
                     <div class="service-card">
-                        <div class="grid-icon-row"><img src="imges/government_white.png" class="service-image" title="ייצוג מול רשויות המס" /></div>
+                        <div class="grid-icon-row"><img src="images/government_white.png" class="service-image" title="ייצוג מול רשויות המס" /></div>
                         <span class="service-title">ייצוג מול רשויות המס</span>
                         <p class="light center">By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
                     </div>

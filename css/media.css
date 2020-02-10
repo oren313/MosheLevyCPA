@@ -1,0 +1,146 @@
+/* media screen resoultion */
+@media only screen and (max-width: 1010px) {
+    #content {
+        margin: 0 4em;
+    }
+    .banner-text-cover {
+        width: calc(100% - 3.2em);
+    }
+    footer {
+        justify-content: center
+    }
+}
+@media only screen and (max-width: 800px) {
+    .banner-text-cover {
+        width: calc(100% - 2em);
+    }
+    #content {
+        margin: 0 2.5em;
+    }
+    .main-card {
+        flex-flow: column;
+        font-size: 16px;
+    }
+    .google-maps-iframe {
+        display: block;
+    }
+    #content-body .card-panel {
+        min-width: 26%;
+        max-width: 26%;
+    }
+    .nav-banner h1 {
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .banner-text-cover > h2 {
+        font-size: 50px;
+    }
+    .banner-text-cover > h3 {
+        font-size: 42px;
+    }
+    .nav-phone {
+        left: 2.5em;
+    }
+    .nav-banner {
+        margin: 0 2.5em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-text-cover {
+        width: calc(100% - 0.8em);
+    }
+    #content {
+        margin: 0 1em;
+    }
+    #content-body .card-panel {
+        min-width: 42%;
+        max-width: 42%;
+    }
+    .banner-text-cover > h2 {
+        font-size: 30px;
+    }
+    .banner-text-cover > h3 {
+        font-size: 24px;
+    }
+    .banner-content {
+        background-size: contain;
+        height: 300px
+    }
+    .banner-text-cover {
+        color: #5a5a5a;
+        -webkit-text-stroke: 0;
+        margin-top: -220px;
+    }
+    .nav-banner h1 {
+        font-size: 21px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .nav-phone {
+        left: 1em;
+    }
+    .nav-banner {
+        margin: 0 1.5em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .banner-text-cover > h2 {
+        font-size: 25px;
+    }
+    .banner-text-cover > h3 {
+        font-size: 20px;
+    }
+    #content-body .card-panel {
+        min-width: 39%;
+        max-width: 39%;
+    }
+    .hedaer-title {
+        display: none;
+    }
+    
+    #header {
+        justify-content: flex-start;
+    }
+    .nav-banner {
+        margin: 0 1.5em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .banner-content {
+        background-size: contain;
+        height: 230px;
+    }
+    .banner-text-cover > h2 {
+        font-size: 20px;
+    }
+    .banner-text-cover > h3 {
+        font-size: 18px;
+    }
+    #banner-logo {
+        width: 60px;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+    .main-card {
+        font-size: 14px;
+    }
+    #content-body .card-panel {
+        min-width: 35%;
+        max-width: 35%;
+    }
+    .nav-phone {
+        font-size: 18px;
+        left: 20px;
+        padding-right: 20px;
+    }
+    
+    .nav-phone i {
+        display: none;
+    }
+}
