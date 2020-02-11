@@ -1,10 +1,27 @@
 /* media screen resoultion */
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 1200px) {
     .content {
-        padding: 0 4em;
+        padding: 2em 5em;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .card-design {
+        padding: 1.5em;
+    }
+    .content {
+        padding: 2em 4em;
     }
     footer {
         justify-content: center
+    }
+    .contact-section {
+        display: block;
+    }
+    .service-image {
+        width: 54px;
+    }
+    .service-title {
+        font-size:17px;
     }
 }
 @media only screen and (max-width: 800px) {
@@ -15,15 +32,14 @@
         flex-flow: column;
         font-size: 16px;
     }
-    .contact-section {
-        display: block;
-    }
-    #content-body .card-panel {
-        min-width: 26%;
-        max-width: 26%;
-    }
     .nav-banner h1 {
         font-size: x-large;
+    }
+    .service-image {
+        width: 48px;
+    }
+    .service-title {
+        font-size: 15px;
     }
 }
 
@@ -40,15 +56,18 @@
     .nav-banner {
         margin: 0 2.5em;
     }
+    #content-body {
+        justify-content: space-around;
+    }
+    #content-body .card-design {
+        min-width: 30%;
+        max-width: 30%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .content {
-        padding: 0 1em;
-    }
-    #content-body .card-panel {
-        min-width: 42%;
-        max-width: 42%;
+        padding: 2em 1em;
     }
     .banner-text-cover > h2 {
         font-size: 30px;
@@ -60,9 +79,7 @@
         height: 300px
     }
     .banner-text-cover {
-        color: #5a5a5a;
-        -webkit-text-stroke: 0;
-       margin-top: -5em;
+       margin-top: -6em;
     }
     .nav-banner h1 {
         font-size: 21px;
@@ -79,14 +96,10 @@
 
 @media only screen and (max-width: 500px) {
     .banner-text-cover > h2 {
-        font-size: 25px;
+        font-size: 35px;
     }
     .banner-text-cover > h3 {
-        font-size: 20px;
-    }
-    #content-body .card-panel {
-        min-width: 39%;
-        max-width: 39%;
+        font-size: 22px;
     }
     .hedaer-title {
         display: none;
@@ -102,13 +115,13 @@
 
 @media only screen and (max-width: 400px) {
     .banner-content {
-        height: 240px;
+        height: 280px;
     }
     .banner-text-cover > h2 {
-        font-size: 20px;
+        font-size: 30px;
     }
     .banner-text-cover > h3 {
-        font-size: 18px;
+        font-size: 21px;
     }
     h1 {
         font-size: 1.6em;
@@ -116,17 +129,15 @@
     .main-card {
         font-size: 14px;
     }
-    #content-body .card-panel {
-        min-width: 38%;
-        max-width: 38%;
-    }
     .nav-phone {
         font-size: 18px;
         left: 20px;
         padding-right: 20px;
     }
-    
     .nav-phone i {
         display: none;
+    }
+    h4 {
+        font-size: 15px;
     }
 }
