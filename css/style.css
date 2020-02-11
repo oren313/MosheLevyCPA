@@ -45,8 +45,25 @@ p {
     white-space: pre-line;
     margin: none;
 }
-#content {
-    margin: 0 6em;
+.content {
+    padding: 0 6em;
+}
+.section-header {
+    display: flex;
+}
+.section-header-text {
+    margin: 20px auto -5px auto;
+}
+.odd-header-text {
+    color: #3a3a3a;
+    font-weight: 400;
+}
+.even-header-text {
+    color: white;
+    font-weight: 300;
+}
+.odd-content {
+    background-color: #aaa;
 }
 #wrapper {
     width: 100%;
@@ -112,8 +129,8 @@ h1 {
     text-align: center;
     font-size: 40px;
     position: absolute;
-    margin-top: -455px;
-    width: calc(100% - 4.8em);
+    margin-top: -10em;
+    width: 100%;
     color: white;
     background-color: rgba(245,245,245,0.4);
 }
@@ -186,9 +203,6 @@ footer {
     flex-flow: column;
     text-align: center;
 }
-.service-image {
-    width: 64px;
-}
 .service-title {
     font-size: 20px;
 }
@@ -196,9 +210,7 @@ footer {
     border-right: 3px solid;
     padding-right: 10px;
     border-radius: 10px;
-}
-#accounting-managment-img {
-    width: 60px;
+    font-weight: 300;
 }
 .nav-phone {
     background: linear-gradient(to bottom, #1eb939 0%,#5ecb31 50%,#1cb700 51%,#4f7210 100%);
