@@ -115,22 +115,9 @@ p {
     width: 64px;
     color: white;
 }
-/*
-.nav-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-
+#banner-logo {
+    width: 64px;
 }
-.nav-item:hover {
-    background-color: #e2e2e2;
-    cursor: pointer;
-}
-.nav-item a {
-    color: rgb(85, 88, 93);
-}
-*/
 h1 {
     font-size: 2em;
     font-weight: 500;
