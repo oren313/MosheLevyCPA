@@ -51,7 +51,7 @@ p {
 }
 .contact-section {
     display: none;
-    background-image: url('/images/office-street.png');
+    background-image: url('../images/office-street.png');
     background-size: cover;
 }
 .section-header {
