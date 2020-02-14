@@ -5,6 +5,9 @@
     }
 }
 @media only screen and (max-width: 1024px) {
+    .banner-content {
+        background-image:url('../images/computer_background_compSize.png'); 
+    }
     .card-design {
         padding: 1.5em;
     }
@@ -42,6 +45,9 @@
     .service-title {
         font-size: 15px;
     }
+    .contact-section {
+        background-image: url('../images/office-street_mobile.png');
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -65,7 +71,14 @@
         max-width: 30%;
     }
 }
-
+@media only screen and (max-width: 650px) {
+    .contact-details {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: flex-start;
+        width: 40%;
+    }
+}
 @media only screen and (max-width: 600px) {
     .content {
         padding: 2em 1em;
@@ -93,6 +106,9 @@
     .nav-banner {
         margin: 0 1.5em;
     }
+    .contact-details {
+        width: 40%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -113,8 +129,15 @@
         margin: 0 1.5em;
     }
 }
-
+@media only screen and (max-width: 450px) {
+   .contact-details {
+        width: 55%;
+    }
+}
 @media only screen and (max-width: 400px) {
+      .contact-details {
+        width: 60%;
+    }
     .banner-content {
         height: 280px;
     }
@@ -140,5 +163,10 @@
     }
     h4 {
         font-size: 15px;
+    }
+}
+@media only screen and (max-width: 400px) {
+   .contact-details {
+        width: 70%;
     }
 }

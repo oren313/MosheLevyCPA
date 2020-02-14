@@ -156,7 +156,6 @@ h1 {
 .card-design:hover {
     box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.21);
 }
-
 .banner-content {
     background-image:url('../images/computer_background.png'); 
     background-size:cover; 
@@ -167,11 +166,16 @@ h1 {
 }
 footer {
     background-color: #3A3A3A;
+    padding: 20px;
+    color: #34a6c0;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    padding: 20px;
-    color: #34a6c0;
+}
+.contact-details {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 .footer-detail {
     display: flex;
