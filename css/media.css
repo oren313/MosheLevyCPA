@@ -1,7 +1,13 @@
 /* media screen resoultion */
 @media only screen and (max-width: 2000px) {
-        .banner-content {
+    .banner-content {
         background-image:url('../images/computer_background_bigScreen.png'); 
+    }
+}
+@media only screen and (max-width: 1400px) {
+    #volunteer-card {
+        min-width: 33%;
+        max-width: 33%;
     }
 }
 @media only screen and (max-width: 1200px) {
@@ -13,6 +19,9 @@
     }
 }
 @media only screen and (max-width: 1024px) {
+    #additional-info-section {
+        padding: 2em 1em;   
+    }
     .card-design {
         padding: 1.5em;
     }
@@ -36,12 +45,31 @@
     }
 }
 @media only screen and (max-width: 920px) {
+    #additional-info-section { 
+        padding: 2em 4em;
+        flex-flow: column;
+        justify-content: center;
+    }
+    #volunteer-card {
+        display: flex;
+        flex-flow: row;
+        padding: 0.5em 2em 0 0;
+        min-width: 80%;
+        max-width: 100%;
+    }
+    .hks-img {
+        width: 150px;
+    }
+    #pluses-card {
+        min-width: 80%;
+        max-width: 100%;
+        padding: 0.5em 2em;
+    }
     .contact-details {
         margin: 0 7em;
     }
 }
 @media only screen and (max-width: 800px) {
-
     .main-card {
         flex-flow: column;
         font-size: 16px;
@@ -103,6 +131,16 @@
     }
 }
 @media only screen and (max-width: 600px) {
+    #volunteer-card {
+        flex-flow: column;
+        padding: 0.5em 2em 0 2em;
+    }
+    .hks-img {
+        width: 200px;
+    }
+    #additional-info-section {
+        padding: 2em 1em;
+    }
     .content {
         padding: 2em 1em;
     }
@@ -161,7 +199,10 @@
     }
 }
 @media only screen and (max-width: 400px) {
-      .contact-details {
+    #volunteer-card {
+        padding: 0.5em 1em 0 1em;
+    }
+    .contact-details {
         width: 52%;
     }
     .banner-content {

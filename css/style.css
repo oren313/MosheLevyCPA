@@ -32,6 +32,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+#additional-info-section {
+    display: flex;
+    justify-content: space-between;
+}
 #content-body .card-design {
     min-width: 16%;
     max-width: 16%;
@@ -75,6 +79,47 @@ p {
 }
 .light-content {
     background-color: ;
+}
+.volunteer-header {
+    display: flex;
+    align-items: center;
+}
+.volunteer-header img {
+    width: 36px;
+    margin-left: 10px;
+}
+#volunteer-card{
+    min-width: 25%;
+    max-width: 25%;
+    text-align: center;
+    padding: 0.5em 2em 0 2em;
+}
+#pluses-card{
+    min-width: 50%;
+    max-width: 50%;
+    padding: 0.5em 2em 0 2em;
+}
+.pluses-header {
+    display: flex;
+    margin-bottom: 20px;
+}
+.pluses-header img {
+    width: 24px;
+    margin-left: 10px;
+}
+.plus-image {
+    width: 22px;
+    height:22px;
+}
+.pluses-info {
+    display: flex;
+    justify-content:flex-start;
+    flex-flow: row;
+    margin: 15px 0;
+}
+.pluses-info img {
+    margin-left: 5px;
+    
 }
 #wrapper {
     width: 100%;
