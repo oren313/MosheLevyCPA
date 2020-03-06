@@ -206,6 +206,7 @@ h1 {
 }
 #bg-img-calc {
     background-image:url('../images/calc_background.jpg');
+    display: none;
 }
 #bg-img-computer {
     background-image:url('../images/computer_background_compSize.jpg');
