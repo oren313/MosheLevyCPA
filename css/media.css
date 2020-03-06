@@ -33,6 +33,7 @@
     }
     .service-image {
         width: 54px;
+        height: 54px;
     }
     .service-title {
         font-size:17px;
@@ -82,6 +83,7 @@
     }
     .service-image {
         width: 48px;
+        height: 48px;
     }
     .service-title {
         font-size: 15px;
