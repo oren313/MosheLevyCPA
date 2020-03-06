@@ -24,9 +24,22 @@
     <link href="fonts/opensanshebrew-regular.ttf" />
     <link href="fonts/google-fonts.woff2" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+    
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#banner-image-slider').cycle({
+            fx: 'fade',
+            containerResize: false,
+            slideResize: false,
+        });
+    });
+    </script>
 </head>
 
 <body>
@@ -47,7 +60,9 @@
     </nav>
 
     <div id="wrapper">
-        <div class="card-panel banner-content">
+        <div class="card-panel banner-content" id="banner-image-slider">
+            <div class="banner-img" id="bg-img-computer" style="width:100% !important; height: 100% !important;"></div>
+            <div class="banner-img" id="bg-img-calc" style="width:100% !important; height: 100% !important;"></div>
         </div>
         <div class="banner-text-cover">
             <h2>משה לוי - רואי חשבון</h2>
