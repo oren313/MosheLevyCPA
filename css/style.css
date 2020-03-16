@@ -113,6 +113,7 @@ p {
 .plus-image {
     width: 22px;
     height:22px;
+    min-width: 22px;
 }
 .pluses-info {
     display: flex;
@@ -123,6 +124,9 @@ p {
 .pluses-info img {
     margin-left: 5px;
     
+}
+.hks-img {
+    width: 160px;
 }
 #wrapper {
     width: 100%;
