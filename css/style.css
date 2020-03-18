@@ -39,7 +39,7 @@ body {
 #content-body .card-design {
     min-width: 16%;
     max-width: 16%;
-    max-height: 12em;
+    max-height: 140px;
 }
 a {
      color: black;
@@ -277,7 +277,7 @@ footer {
     justify-content: center;
     flex-flow: column;
     text-align: center;
-    max-height: 12em;
+    max-height: 140px;
 }
 .service-title {
     font-size: 20px;
