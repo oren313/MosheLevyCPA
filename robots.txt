@@ -1,0 +1,5 @@
+# Allow all
+User-agent: *
+Allow: /
+
+Sitemap: http://www.moshelevy-cpa.co.il/sitemap.xml
