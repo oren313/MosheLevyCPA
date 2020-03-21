@@ -1,13 +1,12 @@
-# Allow all
-User-agent: *
-Allow: /
-
 # Prevent from images to apear on google
-User-agent: Googlebot-Image
-Disallow: /images/*
+User-agent: *
+Disallow: /
 
 # Only allow moshe image
 User-agent: Googlebot-Image
 Allow: /images/moshelevy.png
+
+User-agent: Googlebot-Image
+Allow: /images/MosheLevyLogo250x250.png
 
 Sitemap: http://www.moshelevy-cpa.co.il/sitemap.xml
