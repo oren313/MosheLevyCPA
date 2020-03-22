@@ -99,7 +99,7 @@ p {
 #pluses-card{
     min-width: 50%;
     max-width: 50%;
-    padding: 0.5em 2em 0 2em;
+    padding: 0.5em 2em 0.5em 2em;
 }
 .pluses-header {
     display: flex;
