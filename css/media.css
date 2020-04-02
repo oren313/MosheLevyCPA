@@ -161,6 +161,9 @@
     .nav-banner h1 {
         font-size: 21px;
     }
+   .contact-section {
+        background-image: url('/images/office-street_mobile.jpg');
+    }
 }
 @media only screen and (max-width: 550px) {
     .nav-phone {
