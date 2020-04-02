@@ -149,6 +149,12 @@
     .banner-content {
         height: 300px
     }
+    #bg-img-calc {
+        background-image: url('/images/calc_background_mobile.jpg');
+    }
+    #bg-img-computer {
+        background-image: url('/images/computer_background_mobile.jpg');
+    }
     .banner-text-cover {
        margin-top: -6em;
     }
