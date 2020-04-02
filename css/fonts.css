@@ -3,6 +3,7 @@
   font-style: normal;
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  font-display: swap;
 }
 
 /*
@@ -17,6 +18,7 @@
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-LightItalic.woff2) format('woff2'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-LightItalic.woff) format('woff'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-LightItalic.ttf) format('truetype');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Open Sans Hebrew';
@@ -27,6 +29,7 @@
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.woff2) format('woff2'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.woff) format('woff'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.ttf) format('truetype');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Open Sans Hebrew';
@@ -37,6 +40,7 @@
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Italic.woff2) format('woff2'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Italic.woff) format('woff'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Italic.ttf) format('truetype');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Open Sans Hebrew';
@@ -47,6 +51,7 @@
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Regular.woff2) format('woff2'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Regular.woff) format('woff'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Regular.ttf) format('truetype');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Open Sans Hebrew';
@@ -57,6 +62,7 @@
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-BoldItalic.woff2) format('woff2'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-BoldItalic.woff) format('woff'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-BoldItalic.ttf) format('truetype');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Open Sans Hebrew';
@@ -67,6 +73,7 @@
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Bold.woff2) format('woff2'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Bold.woff) format('woff'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Bold.ttf) format('truetype');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Open Sans Hebrew';
@@ -77,6 +84,7 @@
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBoldItalic.woff2) format('woff2'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBoldItalic.woff) format('woff'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBoldItalic.ttf) format('truetype');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Open Sans Hebrew';
@@ -87,4 +95,5 @@
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBold.woff2) format('woff2'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBold.woff) format('woff'),
        url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBold.ttf) format('truetype');
+  font-display: swap;
 }
