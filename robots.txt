@@ -1,6 +1,6 @@
 # Prevent from images to apear on google
 User-agent: *
-Disallow: /
+Disallow: /images/
 
 # Only allow moshe image
 User-agent: Googlebot-Image
