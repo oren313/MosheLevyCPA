@@ -1,5 +1,5 @@
  $(document).ready(function() {
-    $('#banner-image-slider').cycle({
+    $('.banner-content').cycle({
         fx: 'fade',
         containerResize: false,
         slideResize: false

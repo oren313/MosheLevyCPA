@@ -1,0 +1,105 @@
+@import "consts";
+
+@mixin basic-font-face {
+  font-family: 'Open Sans Hebrew';
+  font-display: swap;
+}
+
+@mixin italic-font-face {
+    @include basic-font-face;
+    font-style: italic;
+}
+
+@mixin italic-font-face {
+    @include basic-font-face;
+    font-style: italic;
+}
+
+@mixin normal-font-face {
+    @include basic-font-face;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: $font-weight-thick;
+  src: url(https://fonts.gstatic.com/s/materialicons/v48/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  font-display: swap;
+}
+
+/*
+ * Open Sans Hebrew (Hebrew) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  @include italic-font-face;
+  font-weight: $font-weight-thick;
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-LightItalic.eot);
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-LightItalic.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-LightItalic.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-LightItalic.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-LightItalic.ttf) format('truetype');
+}
+@font-face {
+  @include normal-font-face;
+  font-weight: $font-weight-thick;
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.eot);
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Light.ttf) format('truetype');
+}
+@font-face {
+  @include italic-font-face;
+  font-weight: $font-weight-regular;
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Italic.eot);
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Italic.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Italic.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Italic.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Italic.ttf) format('truetype');
+}
+@font-face {
+  @include normal-font-face;
+  font-weight: $font-weight-regular;
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Regular.ttf) format('truetype');
+}
+@font-face {
+  @include italic-font-face;
+  font-weight: $font-weight-bold;
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-BoldItalic.eot);
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-BoldItalic.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-BoldItalic.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-BoldItalic.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  @include normal-font-face;
+  font-weight: $font-weight-bold;
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-Bold.ttf) format('truetype');
+}
+@font-face {
+  @include italic-font-face;
+  font-weight: $font-weight-extra-bold;
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBoldItalic.eot);
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBoldItalic.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBoldItalic.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBoldItalic.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBoldItalic.ttf) format('truetype');
+}
+@font-face {
+  @include normal-font-face;
+  font-weight: $font-weight-extra-bold;
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBold.eot);
+  src: url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/opensanshebrew/v3/OpenSansHebrew-ExtraBold.ttf) format('truetype');
+}

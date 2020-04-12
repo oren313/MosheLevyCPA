@@ -1,0 +1,352 @@
+@import 'consts';
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: $small-icon-size;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+    font-family: $font-face;
+    direction: rtl;
+    float: center;
+    box-sizing: content-box;
+    
+    body {
+        background-color: $light-background-color;
+        margin: 8px;
+        color: $dark-background-color;
+        
+        #header {
+            box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+            position:fixed;
+            z-index: 999999;
+            top: 0; 
+            right: 0;
+            height: 80px;
+            width: 100%;
+            background-color: #eeeeee;
+            display: flex;
+
+            .nav-banner {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 6em;
+                min-width: max-content;
+
+                 h1{
+                    color: rgb(85,88,93);
+                     font-weight: $font-weight-regular;
+                }
+            }
+        }
+        
+        #wrapper {
+            width: 100%;
+            position: absolute;
+            top: 80px;
+            right: 0;
+            
+            .banner-content {
+                height: 40em;
+                opacity:0.7;
+                box-shadow: 0 0 10px 0;
+                
+                .banner-img {
+                    background-size:cover; 
+                    background-repeat: no-repeat; 
+                    width: 100%;
+                    height: 100%;
+                }
+                #bg-img-calc {
+                    background-image:url('../images/calc_background.jpg');
+                    display: none;
+                }
+                #bg-img-computer {
+                    background-image:url('../images/computer_background_compSize.jpg');
+                }
+            }
+            .banner-text-cover {
+                text-align: center;
+                font-size: 40px;
+                position: absolute;
+                margin-top: -12em;
+                width: 100%;
+                color: $dark-section;
+                background-color: rgba(245,245,245,0.6);
+            }
+            .buffer-section {
+                background-color: $green-color;
+                padding: 0.4em
+            }
+
+        }
+    }
+}
+
+.content {
+    padding: 2em 8em;
+}
+
+#content-body {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    .card-design {
+        min-width: 16%;
+        max-width: 16%;
+        max-height: 140px;
+    }
+}
+#additional-info-section {
+    display: flex;
+    justify-content: space-between;
+}
+a {
+     color: black;
+     text-decoration: none;
+}
+p {
+    text-align:right;
+    white-space: pre-line;
+    margin: none;
+}
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column;
+    background-image: url('../images/office-street.jpg');
+    background-size: cover;
+}
+.section-header {
+    display: flex;
+    
+    .section-header-text {
+        margin: 20px auto -5px auto;
+    }
+}
+
+.odd-header-text {
+    color: $dark-background-color;
+    font-weight: $font-weight-regular;
+}
+.dark-section {
+    background-color: $dark-section;
+}
+.even-header-text {
+    color: $light-background-color;
+    font-weight: $font-weight-thick;
+}
+.light-content {
+    background-color: $light-background-color;
+}
+.volunteer-header {
+    display: flex;
+    align-items: center;
+    
+     img {
+        width: 36px;
+        height: 36px;
+        margin: auto 0 auto 10px;
+    }
+}
+#volunteer-card{
+    min-width: 25%;
+    max-width: 25%;
+    text-align: center;
+    padding: 0.5em 2em 0 2em;
+}
+#pluses-card{
+    min-width: 50%;
+    max-width: 50%;
+    padding: 0.5em 2em 0.5em 2em;
+}
+.pluses-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    img {
+        width: $small-icon-size;
+        height: $small-icon-size;
+        margin: auto 0 auto 10px;
+    }
+}
+
+.pluses-info {
+    display: flex;
+    justify-content:flex-start;
+    flex-flow: row;
+    margin: 15px 0;
+    
+   .plus-image {
+        width: 22px;
+        height:22px;
+        min-width: 22px;
+        margin-left: 5px;
+    }
+}
+
+.hks-img {
+    width: 160px;
+}
+
+.main-card {
+    display: flex;
+    font-size: 18px;
+    
+    img{
+        margin: 15px 0 5px 0;
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        border: 4px solid $light-background-color;
+    }
+    
+    .main-card-text {
+        border-right: 3px solid;
+        padding-right: 10px;
+        border-radius: 10px;
+        font-weight: $font-weight-thick;
+    }
+}
+.service-image {
+    font-size: $big-icon-size;
+    width: $big-icon-size;
+    color: $light-background-color;
+}
+#banner-logo {
+    width: $big-icon-size;
+}
+h1 {
+    font-size: 2em;
+    font-weight: $font-weight-bold;
+    margin-right: 1em;
+}
+.brand-logo-href {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card {
+    margin: 0 20px;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    padding: 5px 10px;
+}
+.card-design {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.22);
+    padding: 2em;
+    margin: 1em 0;
+    &:hover {
+        box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.21);
+    }
+}
+footer {
+    background-color: $dark-background-color;
+    padding: 20px 10px;
+    color: $link-color;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    .contact-details {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        .footer-detail {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-width: max-content;
+            margin: 10px 20px;
+
+            .office-detail {
+                margin-right: 5px;
+
+                a {
+                    color: $link-color;
+                }
+            }
+        }
+    }
+}
+.google-maps-iframe {
+    border:0; 
+    width: 65%;
+    height: 400px;
+    margin: 15px 0;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0, 0.5);
+}
+.grid-icon-row {
+    display: flex;
+    justify-content: center;
+}
+.dark-content {
+    background-color: $dark-background-color;
+    color: $light-background-color;
+}
+.material-icons {
+    width: $small-icon-size;
+    height:$small-icon-size;
+}
+.service-card {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    max-height: 140px;
+}
+.service-title {
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: 10px 0 0 0;
+}
+.main-card-aside {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    width: 250px;
+    margin: 0 4em 10px -80px;
+}
+.contact-header {
+    font-weight: $font-weight-regular;
+    color: $light-background-color;
+}
+.nav-phone {
+    background-color: $green-color;
+    color: $light-background-color;
+    position: absolute;
+    display: flex;
+    top: 20px;
+    left: 100px;
+    flex-flow: wrap-reverse;
+    padding: 10px 10px 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 0;
+    
+    &:hover {
+        cursor: pointer;
+        opacity: 0.85;
+    }
+    
+    i {
+        margin-left: 5px;
+    }
+}
