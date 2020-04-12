@@ -32,45 +32,52 @@ html {
       width: 100%;
       background-color: #eeeeee;
       display: flex; }
-      html body #header .nav-banner {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 6em;
-        min-width: max-content; }
-        html body #header .nav-banner h1 {
-          color: #55585d;
-          font-weight: 400; }
     html body #wrapper {
       width: 100%;
       position: absolute;
       top: 80px;
       right: 0; }
-      html body #wrapper .banner-content {
-        height: 40em;
-        opacity: 0.7;
-        box-shadow: 0 0 10px 0; }
-        html body #wrapper .banner-content .banner-img {
-          background-size: cover;
-          background-repeat: no-repeat;
-          width: 100%;
-          height: 100%; }
-        html body #wrapper .banner-content #bg-img-calc {
-          background-image: url("../images/calc_background.jpg");
-          display: none; }
-        html body #wrapper .banner-content #bg-img-computer {
-          background-image: url("../images/computer_background_compSize.jpg"); }
-      html body #wrapper .banner-text-cover {
-        text-align: center;
-        font-size: 40px;
-        position: absolute;
-        margin-top: -12em;
-        width: 100%;
-        color: #2d2d2d;
-        background-color: rgba(245, 245, 245, 0.6); }
-      html body #wrapper .buffer-section {
-        background-color: #1cb700;
-        padding: 0.4em; }
+
+.nav-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6em;
+  min-width: max-content; }
+  .nav-banner h1 {
+    color: #55585d;
+    font-weight: 400; }
+
+.banner-content {
+  height: 40em;
+  opacity: 0.7;
+  box-shadow: 0 0 10px 0; }
+
+.banner-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%; }
+
+#bg-img-calc {
+  background-image: url("../images/calc_background.jpg");
+  display: none; }
+
+#bg-img-computer {
+  background-image: url("../images/computer_background_compSize.jpg"); }
+
+.banner-text-cover {
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  margin-top: -12em;
+  width: 100%;
+  color: #2d2d2d;
+  background-color: rgba(245, 245, 245, 0.6); }
+
+.buffer-section {
+  background-color: #1cb700;
+  padding: 0.4em; }
 
 .content {
   padding: 2em 8em; }

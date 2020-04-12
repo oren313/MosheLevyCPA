@@ -37,19 +37,6 @@ html {
             width: 100%;
             background-color: #eeeeee;
             display: flex;
-
-            .nav-banner {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 0 6em;
-                min-width: max-content;
-
-                 h1{
-                    color: rgb(85,88,93);
-                     font-weight: $font-weight-regular;
-                }
-            }
         }
         
         #wrapper {
@@ -57,42 +44,53 @@ html {
             position: absolute;
             top: 80px;
             right: 0;
-            
-            .banner-content {
-                height: 40em;
-                opacity:0.7;
-                box-shadow: 0 0 10px 0;
-                
-                .banner-img {
-                    background-size:cover; 
-                    background-repeat: no-repeat; 
-                    width: 100%;
-                    height: 100%;
-                }
-                #bg-img-calc {
-                    background-image:url('../images/calc_background.jpg');
-                    display: none;
-                }
-                #bg-img-computer {
-                    background-image:url('../images/computer_background_compSize.jpg');
-                }
-            }
-            .banner-text-cover {
-                text-align: center;
-                font-size: 40px;
-                position: absolute;
-                margin-top: -12em;
-                width: 100%;
-                color: $dark-section;
-                background-color: rgba(245,245,245,0.6);
-            }
-            .buffer-section {
-                background-color: $green-color;
-                padding: 0.4em
-            }
-
         }
     }
+}
+
+.nav-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6em;
+    min-width: max-content;
+
+     h1{
+        color: rgb(85,88,93);
+         font-weight: $font-weight-regular;
+    }
+}
+ .banner-content {
+    height: 40em;
+    opacity:0.7;
+    box-shadow: 0 0 10px 0;
+}
+.banner-img {
+    background-size:cover; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100%;
+}
+#bg-img-calc {
+    background-image:url('../images/calc_background.jpg');
+    display: none;
+}
+#bg-img-computer {
+    background-image:url('../images/computer_background_compSize.jpg');
+}
+
+.banner-text-cover {
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    margin-top: -12em;
+    width: 100%;
+    color: $dark-section;
+    background-color: rgba(245,245,245,0.6);
+}
+.buffer-section {
+    background-color: $green-color;
+    padding: 0.4em
 }
 
 .content {
@@ -252,6 +250,7 @@ h1 {
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.22);
     padding: 2em;
     margin: 1em 0;
+    
     &:hover {
         box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.21);
     }
