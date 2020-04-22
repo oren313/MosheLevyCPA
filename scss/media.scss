@@ -154,10 +154,10 @@
         height: 300px
     }
     #bg-img-calc {
-        background-image: url('/images/calc_background_mobile.jpg');
+        background-image: url('../images/calc_background_mobile.jpg');
     }
     #bg-img-computer {
-        background-image: url('/images/computer_background_mobile.jpg');
+        background-image: url('../images/computer_background_mobile.jpg');
     }
     .banner-text-cover {
        margin-top: -6em;
@@ -166,7 +166,7 @@
         font-size: 21px;
     }
    .contact-section {
-        background-image: url('/images/office-street_mobile.jpg');
+        background-image: url('../images/office-street_mobile.jpg');
     }
 }
 @media only screen and (max-width: 550px) {
