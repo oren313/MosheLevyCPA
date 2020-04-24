@@ -1,0 +1,13 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Organization",
+  "name": "משה לוי רואה חשבון",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ויצמן 130",
+    "addressLocality": "כפר סבא",
+    "addressRegion": "ישראל",
+    "postalCode": "44203"
+  },
+  "telephone": "097654590"
+}
