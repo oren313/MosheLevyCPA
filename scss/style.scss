@@ -1,6 +1,8 @@
 @import 'consts';
 
 .material-icons {
+  width: $small-icon-size;
+  height: $small-icon-size;
   font-family: 'Material Icons', 'Arial';
   font-weight: normal;
   font-style: normal;
@@ -269,7 +271,7 @@ footer {
     .contact-details {
         display: flex;
         flex-flow: row wrap;
-        justify-content: center;
+        justify-content: flex-start;
 
         .footer-detail {
             display: flex;
