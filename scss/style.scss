@@ -29,7 +29,6 @@
 html {
     font-family: $font-face;
     direction: rtl;
-    float: center;
     box-sizing: content-box;
     
     body {
@@ -130,7 +129,6 @@ a {
 p {
     text-align:right;
     white-space: pre-line;
-    margin: none;
 }
 .contact-section {
     display: flex;
