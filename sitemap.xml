@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="https://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="https://www.google.com/schemas/sitemap-image/1.1" xmlns:video="https://www.google.com/schemas/sitemap=video/1.1">
   <url>
-    <loc>http://wwww.moshelevy-cpa.co.il/</loc>
+    <loc>http://moshelevy-cpa.co.il/</loc>
     <lastmod>2020-08-05</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://wwww.moshelevy-cpa.co.il/bookkeeping.html</loc>
+    <loc>http://moshelevy-cpa.co.il/bookkeeping.html</loc>
     <lastmod>2020-08-05</lastmod>
 	<priority>0.9</priority>
   </url>

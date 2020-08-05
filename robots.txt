@@ -5,4 +5,4 @@ Disallow: /images/icons
 User-agent: *
 Disallow: /images/services
 
-Sitemap: http://www.moshelevy-cpa.co.il/sitemap.xml
+Sitemap: http://moshelevy-cpa.co.il/sitemap.xml
