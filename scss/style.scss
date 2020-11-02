@@ -1,4 +1,5 @@
 @import 'consts';
+@import 'menu';
 
 .material-icons {
   width: $small-icon-size;
@@ -57,19 +58,6 @@ html {
     }
 }
 
-
-.nav-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 6em;
-    min-width: max-content;
-
-     h1{
-        color: rgb(85,88,93);
-         font-weight: $font-weight-regular;
-    }
-}
  .banner-content {
     height: 40em;
     opacity:0.7;
@@ -211,7 +199,19 @@ p {
 .hks-img {
     width: 160px;
 }
-
+.nav-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6em;
+    min-width: max-content;
+    
+   
+     h1{
+        color: rgb(85,88,93);
+        font-weight: $font-weight-regular;
+    }
+}
 .main-card {
     display: flex;
     font-size: 18px;
