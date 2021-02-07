@@ -1,0 +1,21 @@
+{
+    "name": "משה לוי רואה חשבון בכפר סבא",
+    "short_name": "רואה חשבון בכפר סבא",
+    "start_url": "/",
+    "background_color": "#000000",
+    "theme_color": "#009578",
+    "display": "standalone",
+    "icons": [
+    { 
+        "src": "images/Moshelevylogo250x250.png",
+        "type": "image/png",
+        "sizes": "250x250",
+        "purpose": "maskable"
+    },
+    {
+        "src": "images/Moshelevylogo512x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+    }]
+}
